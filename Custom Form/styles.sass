@@ -1,0 +1,187 @@
+$mainFont: 'Montserrat', sans-serif
+    
+*, *:before, *:after
+    box-sizing: border-box
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video
+    margin: 0
+    padding: 0
+    border: 0
+    font-size: 100%
+    vertical-align: baseline
+    text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased
+    text-size-adjust: none
+
+footer, header, nav, section, main
+    display: block
+
+body
+    line-height: 1
+
+ol, ul
+    list-style: none
+
+blockquote, q
+    quotes: none
+
+blockquote:before, blockquote:after, q:before, q:after
+    content: ''
+    content: none
+
+table
+    border-collapse: collapse
+    border-spacing: 0
+
+input
+    -webkit-appearance: none
+    border-radius: 0
+
+body
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+    background: #121212
+
+#formContainer
+    color: white
+    justify-content: left
+    align-items: left
+    text-align: left
+    padding-top: 50px
+    padding-bottom: 50px
+
+    #heroText
+        color: white
+        font-size: 5em
+        font-weight: 300
+        text-align: center
+        span
+            font-weight: bold
+
+    #heroPara
+        font-size: 1em
+        font-weight: thin
+        padding-top: 30px
+        padding-bottom: 40px
+        text-align: center
+        border-bottom: 1px solid #ffffff32
+        span
+            font-weight: bold
+            font-style: italic
+
+    .formDate
+        padding-left: 10px
+
+    .formDateCont
+        div:nth-child(2)::after
+            content: "MM"
+            color: white
+            font-size: 0.8em
+        
+        div:nth-child(3)::after
+            content: "DD"
+            color: white
+            font-size: 0.8em
+
+        div:nth-child(4)::after
+            content: "YYYY"
+            color: white
+            font-size: 0.8em
+
+    span
+        color: red
+
+    label
+        margin: 0px
+        font-size: 1em
+        padding: 15px
+        padding-left: 0px
+
+    input
+        background: #ffffff2f
+        border: 1.5px solid white
+        border: 1px solid white
+        color: white
+        
+        &:focus
+            color: white
+            background: #ffffff4f
+            border: 1px solid white
+            box-shadow: 5px 6px 5px -5px #fdfdfdbf
+            -webkit-box-shadow: 5px 6px 5px -5px #ffffffbf
+            -moz-box-shadow: 5px 6px 5px -5px #ffffffbf
+
+    input[type=number] 
+        -moz-appearance: textfield
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button 
+        -webkit-appearance: none
+        margin: 0px
+
+    input::placeholder
+        color: #edecec
+        font-family: $mainFont
+
+    textarea::placeholder
+        color: #edecec
+        font-family: $mainFont
+    
+    select 
+        background: #ffffff2f
+        border: 1.5px solid white
+        border: 1px solid white
+        color: black
+        
+        &:focus
+            background: #ffffff4f
+            border: 1px solid white
+            box-shadow: 5px 6px 5px -5px #fdfdfdbf
+            -webkit-box-shadow: 5px 6px 5px -5px #ffffffbf
+            -moz-box-shadow: 5px 6px 5px -5px #ffffffbf
+
+    .formLong
+        background: #ffffff2f
+        border: 1.5px solid white
+        color: white
+        padding-bottom: 10px
+        height: 30px
+        max-height: 150px
+        
+        &:focus
+            color: white
+            background: #ffffff4f
+            border: 1px solid white
+            box-shadow: 5px 6px 5px -5px #fdfdfdbf
+            -webkit-box-shadow: 5px 6px 5px -5px #ffffffbf
+            -moz-box-shadow: 5px 6px 5px -5px #ffffffbf
+
+    .formSec2
+        border-top: 1px solid #ffffff32
+    
+#formContainer .formSection
+    .VformButton
+        padding: 10px
+        margin-top: 20px
+        box-sizing: border-box
+        font-family: $mainFont
+        font-weight: regular
+        background: transparent
+        border: 1px solid white
+        transition: 0.3s ease-in-out
+        padding: 10px
+        font-size: 1em
+        font-weight: regular
+        transition: 0.3s ease-in-out
+        &:hover
+            background-color: #ffffff4f 
+            border: 1px solid white
+            box-shadow: 5px 6px 5px -5px #fdfdfdbf
+            -webkit-box-shadow: 5px 6px 5px -5px #ffffffbf
+            -moz-box-shadow: 5px 6px 5px -5px #ffffffbf
+
+@media screen and (max-width: 768px) 
+    #formContainer #heroText
+        font-size: 3em

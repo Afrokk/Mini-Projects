@@ -1,0 +1,218 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #121212;
+}
+
+#formContainer {
+  color: white;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#formContainer #heroText {
+  color: white;
+  font-size: 5em;
+  font-weight: 300;
+  text-align: center;
+}
+#formContainer #heroText span {
+  font-weight: bold;
+}
+#formContainer #heroPara {
+  font-size: 1em;
+  font-weight: thin;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1960784314);
+}
+#formContainer #heroPara span {
+  font-weight: bold;
+  font-style: italic;
+}
+#formContainer .formDate {
+  padding-left: 10px;
+}
+#formContainer .formDateCont div:nth-child(2)::after {
+  content: "MM";
+  color: white;
+  font-size: 0.8em;
+}
+#formContainer .formDateCont div:nth-child(3)::after {
+  content: "DD";
+  color: white;
+  font-size: 0.8em;
+}
+#formContainer .formDateCont div:nth-child(4)::after {
+  content: "YYYY";
+  color: white;
+  font-size: 0.8em;
+}
+#formContainer span {
+  color: red;
+}
+#formContainer label {
+  margin: 0px;
+  font-size: 1em;
+  padding: 15px;
+  padding-left: 0px;
+}
+#formContainer input {
+  background: rgba(255, 255, 255, 0.1843137255);
+  border: 1.5px solid white;
+  border: 1px solid white;
+  color: white;
+}
+#formContainer input:focus {
+  color: white;
+  background: rgba(255, 255, 255, 0.3098039216);
+  border: 1px solid white;
+  box-shadow: 5px 6px 5px -5px rgba(253, 253, 253, 0.7490196078);
+  -webkit-box-shadow: 5px 6px 5px -5px rgba(255, 255, 255, 0.7490196078);
+  -moz-box-shadow: 5px 6px 5px -5px rgba(255, 255, 255, 0.7490196078);
+}
+#formContainer input[type=number] {
+  -moz-appearance: textfield;
+}
+#formContainer input::-webkit-outer-spin-button,
+#formContainer input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0px;
+}
+#formContainer input::-moz-placeholder {
+  color: #edecec;
+  font-family: "Montserrat", sans-serif;
+}
+#formContainer input:-ms-input-placeholder {
+  color: #edecec;
+  font-family: "Montserrat", sans-serif;
+}
+#formContainer input::placeholder {
+  color: #edecec;
+  font-family: "Montserrat", sans-serif;
+}
+#formContainer textarea::-moz-placeholder {
+  color: #edecec;
+  font-family: "Montserrat", sans-serif;
+}
+#formContainer textarea:-ms-input-placeholder {
+  color: #edecec;
+  font-family: "Montserrat", sans-serif;
+}
+#formContainer textarea::placeholder {
+  color: #edecec;
+  font-family: "Montserrat", sans-serif;
+}
+#formContainer select {
+  background: rgba(255, 255, 255, 0.1843137255);
+  border: 1.5px solid white;
+  border: 1px solid white;
+  color: black;
+}
+#formContainer select:focus {
+  background: rgba(255, 255, 255, 0.3098039216);
+  border: 1px solid white;
+  box-shadow: 5px 6px 5px -5px rgba(253, 253, 253, 0.7490196078);
+  -webkit-box-shadow: 5px 6px 5px -5px rgba(255, 255, 255, 0.7490196078);
+  -moz-box-shadow: 5px 6px 5px -5px rgba(255, 255, 255, 0.7490196078);
+}
+#formContainer .formLong {
+  background: rgba(255, 255, 255, 0.1843137255);
+  border: 1.5px solid white;
+  color: white;
+  padding-bottom: 10px;
+  height: 30px;
+  max-height: 150px;
+}
+#formContainer .formLong:focus {
+  color: white;
+  background: rgba(255, 255, 255, 0.3098039216);
+  border: 1px solid white;
+  box-shadow: 5px 6px 5px -5px rgba(253, 253, 253, 0.7490196078);
+  -webkit-box-shadow: 5px 6px 5px -5px rgba(255, 255, 255, 0.7490196078);
+  -moz-box-shadow: 5px 6px 5px -5px rgba(255, 255, 255, 0.7490196078);
+}
+#formContainer .formSec2 {
+  border-top: 1px solid rgba(255, 255, 255, 0.1960784314);
+}
+
+#formContainer .formSection .VformButton {
+  padding: 10px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: regular;
+  background: transparent;
+  border: 1px solid white;
+  transition: 0.3s ease-in-out;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: regular;
+  transition: 0.3s ease-in-out;
+}
+#formContainer .formSection .VformButton:hover {
+  background-color: rgba(255, 255, 255, 0.3098039216);
+  border: 1px solid white;
+  box-shadow: 5px 6px 5px -5px rgba(253, 253, 253, 0.7490196078);
+  -webkit-box-shadow: 5px 6px 5px -5px rgba(255, 255, 255, 0.7490196078);
+  -moz-box-shadow: 5px 6px 5px -5px rgba(255, 255, 255, 0.7490196078);
+}
+
+@media screen and (max-width: 768px) {
+  #formContainer #heroText {
+    font-size: 3em;
+  }
+}/*# sourceMappingURL=styles.css.map */
