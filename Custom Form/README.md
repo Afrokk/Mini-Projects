@@ -2,7 +2,7 @@ A fully responsive, custom-designed form. Modular and Reusable. Includes validat
 
 ## Desktop Version:
 <p align="center">
-  <img src="images/desktop.jpg">
+  <img src="images/desktop.png">
 </p>
 
 ## Mobile Version:
