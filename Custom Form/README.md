@@ -12,5 +12,5 @@ A fully responsive, custom-designed form. Modular and Reusable. Includes validat
 
 ## Tablet Version:
 <p align="center">
-  <img src="images/tablet.jpg">
+  <img src="images/tablet.png">
 </p>
