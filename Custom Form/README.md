@@ -14,3 +14,4 @@ A fully responsive, custom-designed form. Modular and Reusable. Includes validat
 <p align="center">
   <img src="images/tablet.png">
 </p>
+
