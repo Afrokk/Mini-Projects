@@ -1,7 +1,6 @@
 import "./InputField.sass";
 import { useEffect, useState } from "react";
 
-
 //Typedef:
 type InputFieldProps = {
   //Passing fieldType prop for regexes (For validation purposes)
