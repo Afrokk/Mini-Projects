@@ -16,7 +16,7 @@
 
 ## About & Features
 
-A custom React Input Field component, built using TypeScript, JSX and SASS. 
+A custom React Input Field component, built from scratch using TypeScript, JSX and SASS. 
 * Fully reusable and dynamic.
 * Built-from-scratch, and custom. Lightweight. 
 * Beautiful, custom animations. 
