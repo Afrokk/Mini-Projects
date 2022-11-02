@@ -3,7 +3,6 @@
   <a href="https://github.com/Afrokk/Mini-WebDev-Projects/tree/main/React%20Input%20Field%20(with%20Validation)">
     <img src="images/clip.jpg" alt="main">
   </a>
-
   <h3 align="center">React Input Field Component</h3>
 
   <p align="center">  
