@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://github.com/Afrokk/Mini-WebDev-Projects/tree/main/React%20Input%20Field%20(with%20Validation)">
+  <a href="https://github.com/Afrokk/Mini-WebDev-Projects/tree/main/React%20Dropdown%20Field%20(with%20Validation)">
     <img src="images/clip.jpg" alt="main">
   </a>
   <h3 align="center">React Dropdown Field Component</h3>
@@ -8,7 +8,7 @@
   <p align="center">  
   A dynamic React.js Dropdown Field, with built-in validation.
     <br />
-    <a href="https://github.com/Afrokk/Mini-WebDev-Projects/tree/main/React%20Input%20Field%20(with%20Validation)"><strong>Check it out.»</strong></a>
+    <a href="https://github.com/Afrokk/Mini-WebDev-Projects/tree/main/React%20Dropdown%20Field%20(with%20Validation)"><strong>Check it out.»</strong></a>
     <br />
   </p>
 </div>
@@ -46,7 +46,7 @@ Works with the React props supplied. Required prop enables validation, defaultSe
   <img src="images/dropdownpVal.gif">
 </p>
 
-### Without validation (regular text field):
+### Without validation (regular dropdown field):
 <p align="center">
   <img src="images/dropdownnoVal.gif">
 </p>
