@@ -22,7 +22,7 @@ A custom React Dropdown field component, built from scratch using TypeScript, JS
 * Custom styles upon validation. 
 * Live input validation.
 * Can be used as a regular dropdown field too, validation is fully optional.
-* Completely customzable.
+* Completely customizable.
 
 ## Built With
 
