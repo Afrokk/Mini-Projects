@@ -22,7 +22,7 @@ A custom React Input Field component, built from scratch using TypeScript, JSX a
 * Custom styles upon validation. 
 * Complete support for custom live input validation.
 * Can be used as a regular text input too, validation is fully optional.
-* Completely customzable.
+* Completely customizable.
 
 ## Built With
 
